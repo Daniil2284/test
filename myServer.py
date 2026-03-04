@@ -1,8 +1,9 @@
+
 import random 
 
 users = "root"
 age = random.randint(10,25)
-
+print("Hello")
 def main():
     while True:
         if age == 18 and users == "root":
@@ -15,3 +16,6 @@ def main():
             
 if __name__ == "__main__":
     main()
+
+
+
