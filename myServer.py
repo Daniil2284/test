@@ -6,3 +6,8 @@ age = random.randint(10,25)
 def main():
     if age == 18 and users == "root":
         print("Доступ на сервер безумные зомби разрешен")
+        print("Админа не оскорблять")
+        print("Донат по ВК")
+
+if __name__ == "__main__":
+    main()
